@@ -1,0 +1,4 @@
+qrcode>=8.0,<9
+Pillow>=10,<13
+CairoSVG>=2.7,<3
+zxing-cpp>=2.2,<4

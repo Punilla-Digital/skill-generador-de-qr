@@ -1,0 +1,14 @@
+interface:
+  display_name: Generador de QR
+  short_description: Crea QR con y sin logo, colores, PNG y SVG
+  default_prompt: Usá $generar-qr para crear códigos QR de este enlace, con y sin
+    logo y variantes de color.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
